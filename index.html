@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./CSS guide.css">
+    <link rel="stylesheet" href="./csss.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <style>
+        body {
+            background-image: url(./yashu.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="d-flex flex-column m-5 p-5">
+            <ul class="navbar-nav navbar-collapse">
+                <p class="h5 font-weight-bolder ">Weather app</p>
+                <input type="text" class="neo rounded-pill" id="location" placeholder="    Enter Location" size="35%"
+                    style="line-height: 2;border: 2px solid black;border-radius: 10px;line-height:50px;font-size: 15px;">
+                <button class="btn neo btn-primary btn-outline-success text-light mt-3 mx-auto d-flex">Submit</button>
+                <div class="weather-info cards">
+                </div>
+
+
+        </div>
+        <div class="card mt-5">
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <div class="card bg-light mt-2 mb-2 neo  " id="bg">
+            <div class="card-body uniform ">
+
+                <img src="./sunrise.svg" height="px" width="48px" class="img" alt="rise">
+                <span id="sunRise">Sunrise</span>
+                <p></p>
+                <img src="./thermometer-sun.svg" height="48px" width="48px" class="img" alt="warm">
+                <span id="sunSet">temperature </span>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <div class="card bg-light mt-2 mb-2 neo  " id="bg">
+            <div class="card-body uniform">
+
+                <img src="./hot weather.jpg" height="px" width="48px" class="img" alt="wind">
+                <span id="wind">Hot Weather</span>
+                <br>
+                <p></p>
+                <img src="./cool weather.jpg" height="48px" width="48px" class="img" alt="warm">
+                <span id="sunSet">cool Weather</span>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
